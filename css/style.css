@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    src: url(../font/Urbanist.ttf);
+    font-family: 'Urbanist', sans-serif;
+}
+.nav-var{
+    padding:  25px 65px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.nav-var a{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    text-decoration: none;
+    margin:20px;
+}
+.title{
+    padding: 50px;
+    background: url(../image/background/hive-4shot.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+.title h1{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+}
+section{
+    padding: 10vw;
+}
+.gray{
+    background-color: rgb(241, 241, 241);
+}
+.under{
+    background-color: rgb(48, 48, 48);
+    padding: 30px 50px;
+    color: white;
+}
+.s-botton{
+    display: flex;
+    padding: 5px;
+}
+.s-botton a{
+    text-decoration: none;
+    color: blue;
+}
