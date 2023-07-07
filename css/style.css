@@ -50,3 +50,14 @@ section{
     text-decoration: none;
     color: blue;
 }
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    background-color: darkgreen;
+    
+}
+::-webkit-scrollbar-thumb:active{
+    border: 3px rgba(255, 255, 255, 0.541) solid;
+}
