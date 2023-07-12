@@ -14,7 +14,9 @@
     border: 5px solid green;
 }
 #body{
+    overflow: auto;
     scroll-snap-type: y mandatory;
+    height: 100vh;
 }
 .scroll-element{
     color: white;
