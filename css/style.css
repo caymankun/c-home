@@ -34,15 +34,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-img{
-    /* SPの長押し禁止 */
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -moz-touch-callout:none;
-    -moz-user-select:none;
-    user-select:none;
-    pointer-events: none;
-}
 a{
     color: white;
     font-size: 20px;
