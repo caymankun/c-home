@@ -32,7 +32,7 @@
     align-items: center; 
     flex-direction: column;
     background-color: rgb(0, 46, 0);
-    scroll-snap-align: start;
+    scroll-snap-align: center;
 }
 #one{
     background-image: url(../image/background/hive-4shot.webp);
