@@ -34,6 +34,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#too{
+    background-color: rgb(8, 128, 62);
+}
+#the{
+    background-color: darkred;
+}
+#for{
+    background-color: rgb(119, 112, 10);
+}
+#fif{
+    background-color: slateblue;
+}
+#si{
+    background-color: cadetblue;
+}
 a{
     color: white;
     font-size: 20px;
