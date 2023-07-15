@@ -15,12 +15,6 @@ html,body{
 #one img{
     border-radius: 1000px;
     border: 5px solid green;
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -moz-touch-callout:none;
-    -moz-user-select:none;
-    user-select:none;
-    pointer-events: none;
 }
 .scroll-element{
     color: white;
