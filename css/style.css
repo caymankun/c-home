@@ -77,29 +77,42 @@
     font-family: 'Urbanist', sans-serif;
     
 }
-.div{
-    margin: 10vw 15vw;
-    transition: 90ms;
+.div-content{
+    padding: 5vw;
     font-size: 20px;
     font-weight: 300;
+    display: flex;
+    align-content:center;
+    align-items: center;
     font-family: 'Urbanist', sans-serif;
+    flex-direction: column;
 }
-.div h1{
+.div-content h1{
     text-align: start;
-    font-size: 50px;
+    font-size: 40px;
+    
 }
-.div a{
+.div-content p,b{
+    display: flex;
+    align-content:center;
+    align-items: center;
+    
+}
+.div-content a{
     color: blue;
     font-weight: 500;
+    display: block;
 }
 #fother{
     background: darkgreen;
     color: white;
+    display: block;
 }
 #fother h2{
     font-size: 25px;
     font-weight: 600;
-    padding: 2vw 5vw;
+    padding: 30px;
+    font-family: 'Urbanist', sans-serif;
 }
 hr{
     width: 75%;
@@ -119,4 +132,12 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.content{
+    display: block;
+}
+#content-img{
+    float: left;
+    padding: 10px;
+    align-content: center;
 }
