@@ -109,5 +109,6 @@ marquee{
     display: block;
 }
 ::selection{
-    background-color: rgba(0, 100, 0, 0.623);
+    background-color: rgba(0, 100, 0, 0.774);
+    color: white;
 }
