@@ -108,3 +108,6 @@ marquee{
 #sougo-link a{
     display: block;
 }
+::selection{
+    background-color: rgba(0, 100, 0, 0.623);
+}
