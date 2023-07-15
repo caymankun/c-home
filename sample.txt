@@ -35,37 +35,26 @@
 <div id="navigation-content">
     <a href="./">home</a>
 <a href="./links">links</a>
-</div>
-</div>
-<div id="home-header"  class="header">
-<h1>home</h1>
-</div>
 
-<div class="div">
-    <h1>
-        caymankunの看板
-    </h1>
-    <p>こんにちは、caymankunです。<br>
-        このサイトをお楽しみください。</p>        
+
 </div>
-<hr>
+</div>
+<div id="-header"  class="header">
+<h1></h1>
+</div>
 <div class="div">
     <h1>
-        likes
+        
     </h1>
     <p>
-Android<br>
-HTML/CSS/JS<br>
-Minecraft<br>
-Youtube<br>
     </p>
 </div>
 <hr>
 <div class="div">
     <h1>
-        notice
+        
     </h1>
-    <p>このサイトはあまり更新しないのでご了承ください。</p>        
+    <p></p>        
 </div>
 <div id="fother">
 <h2>
