@@ -50,6 +50,9 @@ html,body{
 #fif{
     background-color: slateblue;
 }
+#fif img{
+    display: block;
+}
 #si{
     background-color: cadetblue;
 }
@@ -63,3 +66,4 @@ a{
     scroll-snap-type: y mandatory;
     height: 100vh;
 }
+
