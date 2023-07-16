@@ -56,11 +56,10 @@ a{
     font-family: 'Urbanist', sans-serif;
 }
 section{
-    padding: 70px;
+    padding: 6vw;
     font-family: 'Urbanist', sans-serif;
     display: block;
     float: left;
-    margin: 30px;
 }
 section h1{
     font-size: 40px;
@@ -86,7 +85,7 @@ section p,b,a{
     font-weight: 500;
 }
 #content-body{
-    padding: 30px;
+    padding: 1vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
