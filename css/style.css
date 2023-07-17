@@ -80,7 +80,6 @@ section h3{
     font-size: 30px;
 }
 section p,b,a{
-    word-wrap: break-word;
     font-size: 20px;
     font-weight: 500;
 }
