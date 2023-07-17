@@ -85,7 +85,7 @@ section p,b,a{
 }
 #content-body{
     padding: 1vw;
-    display: flex;
+    display:block;
     flex-direction: column;
     flex-wrap: wrap;
     width: max-content;
