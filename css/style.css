@@ -7,120 +7,81 @@
     font-family: 'Urbanist', sans-serif;
 }
 ::-webkit-scrollbar{
-    width: 15px;
+    width: 20px;
 }
 ::-webkit-scrollbar-track{
     background-color: rgba(0, 0, 0, 0);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: darkgreen;
-    border-radius: 1000px;
+    border: 2px solid gray;
 }
 header{
-    background-color: black;
-    padding: 5px;
     display: flex;
-    position: sticky;
-    top: 0%;
     align-items: center;
-}
-#nav-link{
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 2vw 2vw;
-    font-family: 'Urbanist', sans-serif;
-}
-#nav-img{
+    border-bottom: 1px gray solid;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 a{
     text-decoration: none;
     color: blue;
-    font-size: 20px;
-    font-weight: 600;
 }
-#title{
-    text-align: center;
+#nav{
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+}
+#nav-link{
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
+}
+#nav-link:hover{
+    background-color: rgba(128, 128, 128, 0.39);
+}
+#title{
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    background-image: radial-gradient(circle, rgb(0, 136, 11), rgb(0, 65, 22)80%);
-    height: 250px;
+    justify-content: center;
+    height: 300px;
+    border-bottom: 1px solid grey;
 }
 #title h1{
-    color: white;
-    font-weight: 700;
     font-size: 50px;
     font-family: 'Urbanist', sans-serif;
 }
 section{
-    padding: 6vw;
-    font-family: 'Urbanist', sans-serif;
-    display: block;
-    float: left;
-}
-section h1{
-    font-size: 40px;
-    font-family: 'Urbanist', sans-serif;
-    border-left:5px solid darkgreen;
-    padding: 5px;
-}
-section h2{
-    font-family: 'Urbanist', sans-serif;
-    border-left:5px solid darkgreen;
-    padding: 5px;
-    font-size: 35px;
-}
-section h3{
-    font-family: 'Urbanist', sans-serif;
-    border-left:5px solid darkgreen;
-    padding: 5px;
-    font-size: 30px;
+    padding: 100px 40px;
+
 }
 section p,b{
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Urbanist', sans-serif;
 }
-section a{
-    display:flex;
+section h2{
+    font-size: 40px;
+    font-family: 'Urbanist', sans-serif;
 }
-#content-body{
-    padding: 1vw;
-    display:block;
-    flex-direction: column;
-    flex-wrap: wrap;
+hr{
+    color: gray;
+    width: 70%;
+    margin: 0 auto;
 }
 footer{
-    background-color: rgb(0, 0, 0);
-    font-family: 'Urbanist', sans-serif;
     padding: 30px;
-    clear: both;
-    color: white;
-    font-size: 25px;
-    font-weight: 500;
-    text-shadow: -2px -1px aqua , 2px 1px deeppink;
+    border-top: 1px solid gray;
+    font-family: 'Urbanist', sans-serif;
 }
-marquee{
-    color: white;
-}
-#sougo-link{
-    padding: 10px;
-}
-#sougo-link a{
-    display: block;
-}
-::selection{
-    background-color: rgba(0, 100, 0, 0.774);
-    color: white;
-}
-
-@media (max-width :500px) {
-    section{
-        padding: 6vw;
-        font-family: 'Urbanist', sans-serif;
-        display: block;
-        float: none;
-    }
+#content-body a{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
 }
