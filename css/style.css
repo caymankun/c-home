@@ -64,7 +64,7 @@ a{
     align-items: end;
     height: 100%;
     position: relative;
-    bottom: 10px;
+    bottom: 1vh;
 }
 #title h1 img{
     padding: 10px;
