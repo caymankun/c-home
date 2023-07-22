@@ -106,6 +106,7 @@ section p,b{
 section h2{
     font-size: 40px;
     font-family: 'Urbanist', sans-serif;
+    word-break: keep-all;
 }
 hr{
     color: gray;
