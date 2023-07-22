@@ -2,12 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-@font-face{
-    src: url(../font/Urbanist.ttf);
-    font-family: 'Urbanist', sans-serif;
-    font-style: normal;
-    font-display: swap;
-}
 html,body{
     background-color: #f2fcf3;
 }
@@ -163,4 +157,11 @@ footer{
     0.5px 6.9px 10.4px hsl(var(--shadow-color) / 0.08),
     0.6px 8.8px 13.2px hsl(var(--shadow-color) / 0.1),
     0.8px 11.3px 17px hsl(var(--shadow-color) / 0.11);
+}
+
+@font-face{
+    src: url(../font/Urbanist.ttf);
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    font-display: swap;
 }
