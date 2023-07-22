@@ -98,6 +98,7 @@ section{
     width: 50%;
     margin: 30px;
     box-shadow: var(--shadow-elevation-medium);
+    word-break: keep-all;
 }
 section p,b{
     font-size: 25px;
