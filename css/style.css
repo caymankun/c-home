@@ -6,7 +6,7 @@ html,body{
     background-color: #f2fcf3;
 }
 input,textarea,select{
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
 }
 ::-webkit-scrollbar{
     width: 20px;
@@ -35,7 +35,7 @@ header{
 a{
     text-decoration: none;
     color: blue;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
 }
 #nav{
     display: flex;
@@ -51,7 +51,7 @@ a{
     padding: 10px;
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
     border-radius: 30px;
 }
 #nav-link:hover{
@@ -80,7 +80,7 @@ a{
 }
 #title h1{
     font-size: 50px;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
     background-color: white;
     padding: 20px;
     border-radius:30px;
@@ -101,11 +101,11 @@ section{
 }
 section p,b{
     font-size: 25px;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
 }
 section h2{
     font-size: 40px;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
     word-break: keep-all;
 }
 hr{
@@ -117,7 +117,7 @@ footer{
     clear: both;
     padding: 30px;
     background-color: #f2fcf3;
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
     border-radius: 30px 30px 0px 0px;
 }
 #content-body a{
