@@ -65,7 +65,6 @@ a{
     background-size: cover;
     background-clip: border-box;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .tn{
     display: flex;
