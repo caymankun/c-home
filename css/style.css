@@ -164,6 +164,7 @@ footer{
 }
 #sosal{
     display: flex;
+    flex-wrap: wrap;
 }
 #sosal a{
     word-break: break-all;
