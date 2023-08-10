@@ -10,17 +10,22 @@ input,textarea,select{
 }
 ::-webkit-scrollbar{
     width: 20px;
+    background-color: whitesmoke;
 }
 ::-webkit-scrollbar-track{
-    background-color: whitesmoke;
+  background-color: whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 5px;;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: whitesmoke;
-    border: 2px solid darkgreen;
+    border-radius: 1000px;
+    background-color: rgb(26, 167, 26);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    background-clip: padding-box;
 }
 ::-webkit-scrollbar-thumb:active{
-    background-color: grey;
-    border: 2px solid darkgreen;
+    background-color: green;
 }
 header{
     display: flex;
