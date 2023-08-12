@@ -121,6 +121,7 @@ footer{
     padding: 30px;
     background-color: #15270c;
     font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
+    color: white;
 }
 #content-body a{
     display: flex;
