@@ -102,6 +102,9 @@ section{
     margin: 30px;
     border: #15270c 2px solid;
 }
+admax-switch{
+    margin: 30px;
+}
 section p,b{
     font-size: 25px;
     font-family: 'Urbanist','Zen Maru Gothic', sans-serif;
