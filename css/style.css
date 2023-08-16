@@ -141,6 +141,11 @@ footer{
         width: 100%;
     }
 }
+@media screen and (max-width: 400px){
+    .admax-switch{
+        margin: 0px;
+    }
+}
 ::selection{
     background-color: green;
     color: whitesmoke;
